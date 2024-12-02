@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-write --allow-net --allow-read --allow-env main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "zod": "https://deno.land/x/zod/mod.ts",
+    "resend": "npm:resend",
+    "openai": "npm:openai",
+    "zod-to-json-schema": "npm:zod-to-json-schema"
+  }
+}
